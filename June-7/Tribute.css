@@ -9,11 +9,10 @@ body, html{
     flex-wrap: wrap;
     background-color: #848888;
      border-radius: 10px;
-     /* height: 100vh;
-     width: 100vw; */
-     overflow-x: scroll;
-     overflow-y: scroll;
-     text-align: center;
+     height: fit-content;
+     width: fit-content;
+     /* overflow-x: scroll;
+     overflow-y: scroll; */
      /* background-image: url(https://api.time.com/wp-content/uploads/2015/10/gettyimages-128614304.jpg?w=824&quality=70);
      background-size: 300px 300px;
      background-repeat: no-repeat;
@@ -29,6 +28,7 @@ h1{
     color: rgb(10, 30, 139);
     font-weight: 100px;
     font-size: 50px;
+    width: 100vw;
     /* text-shadow: -2px 2px lightseagreen; */
     /* text-decoration-line: underline;
   text-decoration-style: solid;
@@ -43,23 +43,23 @@ h1{
 
 .intro{
     display: flex;
-    justify-content: center;
-
+    justify-content: flex-start;
+    /* overflow-x: scroll; */
     padding-left:60px;
-    border: solid;
-    clear: both;
-    width: 100vw;
-    /* height: 100vh; */
+    /* border: solid; */
+    
+    /* width: fit-content; */
+    
     background-color: ghostwhite;
 }
 
-.img{
+/* .img{
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
 /* float: right; */
-clear: right;
-}
+/* clear: right;
+} */ 
 
 /* .b-container{
     display: flex;
@@ -74,7 +74,7 @@ clear: right;
 
  .ae{
     display: flex;
-     justify-content: flex-end; 
+     justify-content: center; 
     position: relative;
     left: 720px;
     clear: right;
@@ -93,11 +93,12 @@ clear: right;
     right: 310px; 
     font-size: 20px;
     /* left: 2px; */
-    float: inline-start;
+    /* float: inline-start; */
    padding: unset;
     align-content: flex-start;
     /* border: solid; */
-    margin-right: 100px;
+    margin-right: 90px;
+    padding-top: 60px;
 }
 
 .list{
