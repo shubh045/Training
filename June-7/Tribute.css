@@ -105,10 +105,14 @@ flex-wrap: wrap;
     display: flex;
     flex-wrap: wrap;
      position: relative;
-    right: 25px;
-    top: 30px;
+    /* right: 25px;
+    top: 30px; */
     /* max-width: 50vw; */
 
+}
+
+#education{
+    width: fit-content;
 }
 
 .p{
@@ -121,4 +125,42 @@ h2{
     top: 4vw;
     font-size: 30px;
     
+}
+
+.table{
+    text-align: justify;
+  word-wrap: break-word;
+margin-top: 50px;
+  border: solid;
+  width: 60px;
+  background-color: lightcoral;
+}
+
+.fact{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    color: khaki;
+    
+}
+
+
+.head{
+    font-size: 30px;
+   
+}
+
+.info{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.tr{
+    margin-top: 50px;
+}
+
+#ed{
+    position: relative;
+    top: 20px;
+    bottom: 10px;
 }
