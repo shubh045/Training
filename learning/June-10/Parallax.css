@@ -1,0 +1,21 @@
+body,html{
+    height: 100%;
+}
+
+#bimg-1{
+    background-image: url(img1.jpeg);
+    min-height: 100%;
+    
+}
+
+#bimg-2{
+    background-image: url(img2.jpeg);
+    min-height: 100%;
+}
+
+.text{
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+}
