@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form</title>
+</head>
+<body>
+    <fieldset>
+    <legend>personal info.</legend>
+    <h1>Person's Data</h1>
+<form>
+   <label for="fname">
+       <strong>First Name </strong>
+    </label> 
+    <input type="text" 
+           name="fname" 
+           id="fname"
+           class="in"> 
+           <br><br>
+
+   <label for="lname">
+       <strong>Last Name</strong>
+    </label> 
+     <input type="text" 
+            name="lname" 
+            id="lname"
+            class="in"> 
+            <br> <br>
+
+  <label for="email">
+       <strong>Email</strong>
+     </label>
+   <input type="email" 
+          required name="email" 
+          id="email" 
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          class="in"> 
+          <br> <br>
+
+    <label for="phone"> <strong>Contact No. </strong> </label>
+    <input type="tel" 
+           id="phone" 
+           pattern="[0-9]"
+           class="in"> 
+           <br> <br>
+
+   <label for="DOB">
+       <strong>DOB</strong>
+</label>
+    <input type="date" 
+           name="DOB" 
+           id="DOB"
+           class="in"> 
+           <br> <br>
+
+       <strong>Gender</strong> <br>
+   <input type="radio" name="Gender" value="Male" id="Gender"> Male <br>
+   <input type="radio" name="Gender" value="Female" id="Gender"> Female <br>
+   <input type="radio" name="Gender" value="Others" id="Gender"> Others <br> <br>
+
+  <strong>Programming languages you started learning</strong>  <br> 
+
+   <input type="checkbox" name="language" id="lang">C<br>
+
+    <input type="checkbox" name="language" id="lang">C++ <br>
+
+    <input type="checkbox" name="language" id="lang"> JavaScript<br>
+    
+    <input type="checkbox" name="language" id="lang">Java <br>
+    
+    <input type="checkbox" name="language" id="lang">Python <br>
+    
+    <input type="checkbox" name="language" id="lang"> C#<br> <br>
+    
+<label for="Genre"> <strong> Literature Genres you like </strong></label> <br>
+    <select name="Genre" id="Genre">
+        <option value="Select">Select</option>
+        <option value="Poetry">Poetry</option>
+        <option value="Drama">Drama</option>
+        <option value="Non-Fiction">Non-Fiction</option>
+        <option value="Fiction">Fiction</option>
+        <option value="Media">Media</option>
+    </select> <br><br>
+
+     <input type="submit" value="SUBMIT">
+     <input type="reset" value="RESET">
+</form>
+    </fieldset>
+</body>
+</html>
