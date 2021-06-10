@@ -8,9 +8,10 @@
     <title>Form</title>
 </head>
 <body>
-    <fieldset>
+
+    <fieldset class="field">
     <legend>personal info.</legend>
-    <h1>Person's Data</h1>
+    <h1>Individual's Data</h1>
 <form>
    <label for="fname">
        <strong>First Name </strong>
@@ -37,7 +38,8 @@
           required name="email" 
           id="email" 
           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-          class="in"> 
+          class="in"
+          > 
           <br> <br>
 
     <label for="phone"> <strong>Contact No. </strong> </label>
@@ -56,27 +58,27 @@
            class="in"> 
            <br> <br>
 
-       <strong>Gender</strong> <br>
-   <input type="radio" name="Gender" value="Male" id="Gender"> Male <br>
-   <input type="radio" name="Gender" value="Female" id="Gender"> Female <br>
-   <input type="radio" name="Gender" value="Others" id="Gender"> Others <br> <br>
+       <strong>Gender</strong> <br><br>
+   <input type="radio" name="Gender" value="Male" id="Gender"> <span> Male </span> <br>
+   <input type="radio" name="Gender" value="Female" id="Gender"> <span> Female</span> <br>
+   <input type="radio" name="Gender" value="Others" id="Gender"><span> Others</span> <br> <br>
 
-  <strong>Programming languages you started learning</strong>  <br> 
+  <strong>Programming languages you started learning</strong>  <br> <br>
 
-   <input type="checkbox" name="language" id="lang">C<br>
+   <input type="checkbox" name="language" id="lang"> <span> C  </span><br>
 
-    <input type="checkbox" name="language" id="lang">C++ <br>
+    <input type="checkbox" name="language" id="lang"> <span> C++ </span><br>
 
-    <input type="checkbox" name="language" id="lang"> JavaScript<br>
+    <input type="checkbox" name="language" id="lang"> <span>JavaScript</span><br>
     
-    <input type="checkbox" name="language" id="lang">Java <br>
+    <input type="checkbox" name="language" id="lang"><span>Java</span> <br>
     
-    <input type="checkbox" name="language" id="lang">Python <br>
+    <input type="checkbox" name="language" id="lang"><span>Python</span> <br>
     
-    <input type="checkbox" name="language" id="lang"> C#<br> <br>
+    <input type="checkbox" name="language" id="lang"><span> C#</span><br> <br>
     
-<label for="Genre"> <strong> Literature Genres you like </strong></label> <br>
-    <select name="Genre" id="Genre">
+<label for="Genre"> <strong> Literature Genres you like </strong></label> <br><br>
+    <select name="Genre" id="Genre" style="width: 120px; height: 30px;">
         <option value="Select">Select</option>
         <option value="Poetry">Poetry</option>
         <option value="Drama">Drama</option>
@@ -85,8 +87,8 @@
         <option value="Media">Media</option>
     </select> <br><br>
 
-     <input type="submit" value="SUBMIT">
-     <input type="reset" value="RESET">
+     <input type="submit" value="SUBMIT" id="submit">
+     <input type="reset" value="RESET" id="reset">
 </form>
     </fieldset>
 </body>
