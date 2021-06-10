@@ -1,0 +1,78 @@
+/* body{
+    margin: 0;
+    padding: 0;
+} */
+
+.field{
+    background-color: paleturquoise;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(5, 27, 102);
+}
+
+form{
+ margin-left: 80px;
+}
+
+.in{
+    margin-left: 30px;
+    box-shadow: 2px 2px grey;
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+
+strong{
+    font-size: 25px;
+}
+
+#email{
+    margin-left: 80px;
+}
+
+#phone{
+    margin-left: 18px;
+}
+
+#DOB{
+    margin-left: 89px;
+}
+
+#Gender{
+    margin-bottom: 25px;
+}
+
+span{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#lang{
+    margin-bottom: 25px;
+}
+
+#Genre{
+    font-size: 17px;
+}
+
+#submit{
+    height: 25px;
+    width: 80px;
+    background-color: darkgray;
+    border-radius: 4px;
+}
+
+#reset{
+    height: 25px;
+    width: 80px;
+    background-color: red;
+    border-radius: 4px;
+}
