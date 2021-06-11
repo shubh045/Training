@@ -7,10 +7,10 @@ body,html{
 
 .grid{
     display: grid;
-    /* justify-content: center;
-    align-content: center; */
+    justify-content: center;
+    align-content: center;
     grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
-    
+    min-height: 100%;
 }
 
 .show{
@@ -30,22 +30,39 @@ body,html{
     grid-template-columns: auto; */
     text-align: center;
     grid-column: 2/4;
-    justify-content: center;
-    align-content: center;
+    /* justify-content: center;
+    align-content: center; */
 }
 
 #h2-1{
-      position: relative;
+      /* position: relative; */
     color: ghostwhite;
     font-size: 50px;
-    border: solid;
     text-align: center;
+    text-transform: uppercase;
 }
 
 #p1{
-    border: solid;
+    
     /* position: relative; */
     text-align: center;
     /* width: 800px; */
-    padding: 45px;
+    padding: 0px 25px 20px;
+    color: ghostwhite;
+    font-size: 1.5em;
+}
+
+#h2-2{
+    display: inline-block;
+    border: solid #666;
+    padding: 20px;
+    background-color: #333;
+    color: whitesmoke;
+    font-size: 1.3em;
+}
+
+#h2-2:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: #000;
 }
