@@ -1,0 +1,51 @@
+body,html{
+    margin: 0;
+    height: 100%;
+}
+
+
+
+.grid{
+    display: grid;
+    /* justify-content: center;
+    align-content: center; */
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    
+}
+
+.show{
+    position: absolute;
+    background-image: url(img.jpg);
+    min-height: 100%;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.text{
+    /* display: grid;
+    grid-template-columns: auto; */
+    text-align: center;
+    grid-column: 2/4;
+    justify-content: center;
+    align-content: center;
+}
+
+#h2-1{
+      position: relative;
+    color: ghostwhite;
+    font-size: 50px;
+    border: solid;
+    text-align: center;
+}
+
+#p1{
+    border: solid;
+    /* position: relative; */
+    text-align: center;
+    /* width: 800px; */
+    padding: 45px;
+}
