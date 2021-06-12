@@ -4,6 +4,7 @@ body{
     background-image: linear-gradient(to left, blue, purple, red, pink);
 }
 
+
 .container{
     display: grid;
     grid-gap: 50px;
@@ -42,7 +43,7 @@ body{
 }
 
 .image{
-    background: url(https://assets.bonappetit.com/photos/5e14f8c1db70f50008d53a0e/master/pass/Go-Live-Masala-Chicken.jpg);
+    background: url(chicken.jpg);
     /* height: 500px;
     width: 500px; */
     background-position: center;
@@ -86,4 +87,61 @@ padding: 20px;
 
 .p{
     font-size: 25px;
+}
+
+.dwn{
+    padding: 2em;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+.dwn{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.card{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 2em;
+}
+
+li{
+    margin: 10px;
+}
+
+.card .emoji{
+    font-size: 50px;
+    vertical-align: middle;
+    line-height: 2;
+}
+
+.sec1{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 50px;
+    padding: 50px;
+    background-color: white;
+}
+
+.jumbo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+
+h4{
+    background-color: goldenrod;
+    padding: 16px;
+    border-radius: 3px;
 }
