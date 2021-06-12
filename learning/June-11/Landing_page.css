@@ -107,13 +107,13 @@ ul{
 
 .card{
     background-color: whitesmoke;
-  width: 270px;
+  width:auto;
  height: 500px;
 }
 
 li{
-    padding: 1.5em 1em ;
-    
+    margin: 1em;
+    width: 31%;
 }
 
 img{
@@ -124,7 +124,7 @@ img{
 
 /* in section 2 for every card */
 .card-content{
-padding: 1em;
+padding: 0.5 2em;
 text-align: center;
 }
 
