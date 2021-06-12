@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to left, blue, purple, red, pink);
+}
+
+.container{
+    display: grid;
+    grid-gap: 50px;
+}
+
+ .f-box{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-content: center;
+    grid-column: span 2;
+    margin: 2.5em 2em 2em 2em;
+    column-gap: 10px;
+    /* perspective: 300px; */
+}
+
+/* .f-box{
+    margin: 2 2.5em;
+} */
+
+.h3{
+    background-color: yellow;
+    /* border: 2px solid; */
+    /* margin-left: 1em; */
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+.mid{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: "image image mid1"
+               "image image mid2";
+    /* min-width: auto; */
+    align-self: center;
+}
+
+.image{
+    background: url(https://assets.bonappetit.com/photos/5e14f8c1db70f50008d53a0e/master/pass/Go-Live-Masala-Chicken.jpg);
+    /* height: 500px;
+    width: 500px; */
+    background-position: center;
+    min-height: 400px;
+    grid-area: image;
+    /* margin: 20px; */
+    margin-left: 20px;
+    background-size: cover;
+    padding: 40px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-attachment: fixed; */
+}
+
+.image > *{
+background-color: whitesmoke;
+padding: 20px;
+}
+
+.mid1{
+    grid-area: mid1;
+}
+
+.mid2{
+    grid-area: mid2;
+}
+
+.midl{
+    background-color: yellow;
+    display: grid;
+   margin-right: 20px;
+   justify-content: center;
+   align-content: center;
+}
+
+.h1{
+    font-size: 55px;
+}
+
+.p{
+    font-size: 25px;
+}
